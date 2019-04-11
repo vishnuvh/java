@@ -1,11 +1,13 @@
 package com.lambda;
 
+import com.lambda.model.Person;
+
 import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.toMap;
 
-public class LambdaListCollect {
+public class ListCollectToMap {
 
     public static void main(String[] args) {
 

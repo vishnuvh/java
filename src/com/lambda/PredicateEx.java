@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class LambdaPredicate {
+public class PredicateEx {
 
     //strategy pattern
 
@@ -21,7 +21,7 @@ public class LambdaPredicate {
 
     }
 
-    private static int totalValues(List<Integer> numbers, Predicate<Integer> selector) {
+    private static int totalValues(List<Integer> numbers, java.util.function.Predicate<Integer> selector) {
         int result = 0;
         for (int e:numbers){
             if (selector.test(e))
@@ -30,7 +30,7 @@ public class LambdaPredicate {
        return result;
     }
 
-    private static int totalValues1(List<Integer> numbers, Predicate<Integer> selector) {
+    private static int totalValues1(List<Integer> numbers, java.util.function.Predicate<Integer> selector) {
 
         return numbers.stream().
                 filter(selector).

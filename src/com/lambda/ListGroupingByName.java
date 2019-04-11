@@ -1,12 +1,14 @@
 package com.lambda;
 
+import com.lambda.model.Person;
+
 import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.groupingBy;
 
 
-public class LambdaGrouping {
+public class ListGroupingByName {
 
     public static void main(String[] args) {
 

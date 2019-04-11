@@ -3,7 +3,7 @@ package com.lambda;
 import java.util.Arrays;
 import java.util.List;
 
-public class LambdaListEvenSum {
+public class ListEvenDoubleSum {
 
     public static void main(String[] args) {
 

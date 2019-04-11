@@ -3,7 +3,7 @@ package com.lambda;
 import java.util.Arrays;
 import java.util.List;
 
-public class LambdaListFindFirst {
+public class ListFindFirst {
 
     public static void main(String[] args) {
 

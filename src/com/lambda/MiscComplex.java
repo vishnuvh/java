@@ -2,7 +2,7 @@ package com.lambda;
 
 import java.util.stream.Stream;
 
-public class LambdaMisc2 {
+public class MiscComplex {
 
     //Given a number k and count n, find the total of doouble n even numbers starting with k
     //where square root of each number is greater than 20
