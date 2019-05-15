@@ -1,4 +1,4 @@
-package com.string.parantheses;
+package com.string;
 
 import java.util.Stack;
 
